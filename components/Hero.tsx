@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute bottom-20 left-0 w-[400px] h-[400px] bg-gradient-to-tr from-brand-purple/5 to-transparent rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-8 items-start w-full pt-6 md:pt-10 pb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-8 items-center w-full pt-6 md:pt-10 pb-10">
           {/* Left column — text */}
           <div>
             <h1 className="text-3xl md:text-[52px] font-bold leading-tight md:leading-[1.15] text-brand-primary">

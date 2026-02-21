@@ -51,15 +51,15 @@ export default function HowItWorks() {
         </div>
 
         {/* Mobile timeline */}
-        <div className="md:hidden relative pl-12 mt-14">
-          <div className="absolute left-[18px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-accent to-brand-purple opacity-30" />
+        <div className="md:hidden relative pl-16 mt-14">
+          <div className="absolute left-[22px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-brand-accent to-brand-purple opacity-30" />
           {steps.map((step, i) => (
             <AnimateOnScroll key={step.number} delay={i * 100}>
               <div className="relative pb-10 last:pb-0">
-                <div className="absolute -left-[22px] step-badge w-10 h-10 rounded-full text-white text-lg font-bold flex items-center justify-center z-10">
+                <div className="absolute -left-[34px] step-badge w-10 h-10 rounded-full text-white text-lg font-bold flex items-center justify-center z-10">
                   {step.number}
                 </div>
-                <div className="ml-2">
+                <div>
                   <h3 className="font-bold text-lg text-brand-primary">{step.title}</h3>
                   <p className="mt-1 text-brand-muted text-sm leading-relaxed">{step.desc}</p>
                 </div>
