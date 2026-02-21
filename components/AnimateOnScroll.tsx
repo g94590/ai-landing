@@ -28,7 +28,7 @@ export default function AnimateOnScroll({ children, className = '', delay = 0 }:
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${className} ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+      className={`transition-opacity duration-1000 ease-out ${className} ${isVisible ? 'opacity-100' : 'opacity-0'}`}
     >
       {children}
     </div>

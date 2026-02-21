@@ -15,10 +15,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-8 items-center w-full py-12">
           {/* Left column — text */}
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-accent/5 border border-brand-accent/15 mb-6">
-              <span className="w-2 h-2 rounded-full bg-brand-success" />
-              <span className="text-sm font-medium text-brand-accent">AI-автоматизация для бизнеса</span>
-            </div>
             <h1 className="text-3xl md:text-[52px] font-bold leading-tight md:leading-[1.15] text-brand-primary">
               <span className="gradient-text">Ai автоматизация</span> для вашего бизнеса
             </h1>
