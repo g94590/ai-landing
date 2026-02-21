@@ -11,17 +11,17 @@ export default function Hero() {
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-bl from-brand-accent/6 via-brand-purple/5 to-transparent rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-0 w-[400px] h-[400px] bg-gradient-to-tr from-brand-purple/5 to-transparent rounded-full blur-3xl" />
 
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 min-h-[90vh] flex items-center relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-8 items-center w-full py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-8 items-start w-full pt-6 md:pt-10 pb-10">
           {/* Left column — text */}
           <div>
             <h1 className="text-3xl md:text-[52px] font-bold leading-tight md:leading-[1.15] text-brand-primary">
               <span className="gradient-text">Ai автоматизация</span> для вашего бизнеса
             </h1>
-            <p className="mt-6 text-lg md:text-xl leading-relaxed text-brand-muted max-w-xl">
+            <p className="mt-4 text-lg md:text-xl leading-relaxed text-brand-muted max-w-xl">
               Создаём AI-ассистентов, автоматизируем процессы и связываем ваши системы в единое целое. Первый результат — через 2 недели.
             </p>
-            <div className="mt-8">
+            <div className="mt-6">
               {showForm ? (
                 <ContactForm onClose={() => setShowForm(false)} />
               ) : (
