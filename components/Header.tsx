@@ -40,9 +40,9 @@ export default function Header() {
         } ${scrolled ? 'glass' : 'bg-transparent'}`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-16 md:h-18 flex items-center justify-between">
-          {/* TODO: replace [НАЗВАНИЕ] */}
-          <button onClick={() => scrollTo('hero')} className="text-xl font-bold tracking-tight">
-            <span className="gradient-text">[НАЗВАНИЕ]</span>
+          <button onClick={() => scrollTo('hero')} className="flex flex-col items-start leading-tight">
+            <span className="text-xl font-bold gradient-text tracking-tight">AI Business Systems</span>
+            <span className="text-[10px] text-brand-muted tracking-wide">Интеллектуальные системы автоматизации вашего бизнеса</span>
           </button>
 
           {/* Desktop nav */}

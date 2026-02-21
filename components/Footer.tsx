@@ -22,11 +22,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           {/* Logo + description */}
           <div>
-            {/* TODO: replace [НАЗВАНИЕ] */}
-            <p className="text-xl font-bold mb-3 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">[НАЗВАНИЕ]</p>
-            <p className="text-white/50 text-sm leading-relaxed">
-              AI-автоматизация для бизнеса
-            </p>
+            <p className="text-xl font-bold mb-1 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">AI Business Systems</p>
+            <p className="text-white/40 text-xs mb-3">Интеллектуальные системы автоматизации вашего бизнеса</p>
           </div>
 
           {/* Navigation */}
@@ -68,8 +65,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-14 pt-8 border-t border-white/8 text-center text-sm text-white/30">
-          {/* TODO: replace [НАЗВАНИЕ] */}
-          <p>&copy; 2026 [НАЗВАНИЕ]. Все права защищены. Политика конфиденциальности.</p>
+          <p>&copy; 2026 AI Business Systems. Все права защищены. Политика конфиденциальности.</p>
         </div>
       </div>
     </footer>

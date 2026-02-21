@@ -20,8 +20,7 @@ export default function Hero() {
               <span className="text-sm font-medium text-brand-accent">AI-автоматизация для бизнеса</span>
             </div>
             <h1 className="text-3xl md:text-[52px] font-bold leading-tight md:leading-[1.15] text-brand-primary">
-              Внедрим AI в ваш бизнес —{' '}
-              <span className="gradient-text">чтобы рутина исчезла</span>, а вы занялись ростом
+              <span className="gradient-text">Ai автоматизация</span> для вашего бизнеса
             </h1>
             <p className="mt-6 text-lg md:text-xl leading-relaxed text-brand-muted max-w-xl">
               Создаём AI-ассистентов, автоматизируем процессы и связываем ваши системы в единое целое. Первый результат — через 2 недели.
@@ -266,9 +265,8 @@ export default function Hero() {
       {/* Social proof bar */}
       <div className="relative z-10 bg-gradient-to-r from-brand-light via-white to-brand-light py-6 border-y border-brand-border/50">
         <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-wrap justify-center gap-x-10 gap-y-3 text-sm text-brand-muted">
-          {/* TODO: replace [X] with actual number */}
           <span className="flex items-center gap-2">
-            <span className="text-2xl font-bold gradient-text">[X]</span>
+            <span className="text-2xl font-bold gradient-text">100+</span>
             <span>проектов реализовано</span>
           </span>
           <span className="hidden sm:inline text-brand-border">|</span>
