@@ -47,7 +47,7 @@ export default function Hero() {
               <div className="w-[420px] h-[420px] bg-gradient-to-br from-brand-accent/15 via-brand-purple/10 to-brand-accent/5 rounded-full blur-3xl animate-glow" />
             </div>
 
-            <svg width="560" height="560" viewBox="0 0 560 560" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10">
+            <svg width="560" height="560" viewBox="0 0 560 560" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative z-10 -mt-12">
               <defs>
                 <linearGradient id="lineGradAB" x1="280" y1="280" x2="280" y2="80" gradientUnits="userSpaceOnUse">
                   <stop stopColor="#4361EE" /><stop offset="1" stopColor="#7209B7" />
