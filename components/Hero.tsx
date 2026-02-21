@@ -41,7 +41,7 @@ export default function Hero() {
           </div>
 
           {/* Right column — AI Business Process Mind Map */}
-          <div className="hidden lg:flex items-center justify-center relative">
+          <div className="hidden lg:flex items-start justify-center relative">
             {/* Glow */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-[420px] h-[420px] bg-gradient-to-br from-brand-accent/15 via-brand-purple/10 to-brand-accent/5 rounded-full blur-3xl animate-glow" />
